@@ -13,7 +13,7 @@
 
 stdenv.mkDerivation (finalAttrs: {
   pname = "yosys-synlig";
-  plugin = "synlig";
+  plugin = "systemverilog";
 
   # The module has automatic regular releases, with date + short git hash
   GIT_VERSION = "2023-11-28-b8ed72d";
